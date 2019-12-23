@@ -1,0 +1,10 @@
+#Mon Dec 23 10:35:00 CST 2019
+path.2=classes_0.dex
+path.1=classes.dex
+path.0=classes.dex
+renamed.2=classes3.dex
+renamed.1=classes2.dex
+renamed.0=classes.dex
+base.2=E\:\\silead_p90ApkCode\\frrfarTest\\app\\build\\intermediates\\dex\\debug\\mergeLibDexDebug\\out
+base.1=E\:\\silead_p90ApkCode\\frrfarTest\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\out
+base.0=E\:\\silead_p90ApkCode\\frrfarTest\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\out

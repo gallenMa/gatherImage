@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<string-array name="finger_settings_enroll_finger_string">
+        <item>拇指</item>
+        <item>食指</item>
+        <item>中指</item>
+        <item>无名指</item>
+        <item>小指</item>
+    </string-array>
+    <string-array name="finger_settings_enroll_finger_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    <string-array name="enroll_env_set_hand_string">
+        <item>左手</item>
+        <item>右手</item>
+    </string-array>
+    <string-array name="enroll_env_set_hand_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="enroll_env_set_gather_finger_string">
+        <item>仅抓取处理后的图</item>
+        <item>仅抓取原始图</item>
+        <item>抓取原始图和处理后的图</item>
+    </string-array>
+    <string-array name="enroll_env_set_gather_finger_value" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="finger_image_name_optic" translatable="false">
+        
+		<!--
+		<item>finger_image_black</item>
+        <item>finger_image_blue</item>
+        <item>finger_image_green</item>
+        <item>finger_image_white</item>
+        <item>center0</item>
+		<item>center10</item>
+		<item>center20</item>
+		<item>center30</item>
+		<item>center40</item>
+		<item>center50</item>
+		<item>center60</item>
+		<item>center70</item>
+		<item>center80</item>
+		<item>center90</item>
+		<item>center100</item>
+		<item>center110</item>
+		<item>center120</item>
+		<item>center130</item>
+		<item>center140</item>
+		<item>center150</item>
+		<item>center160</item>
+		<item>center170</item>
+		<item>center180</item>
+		<item>center190</item>
+		<item>center200</item>
+		<item>center210</item>
+		<item>center220</item>
+		<item>center230</item>
+		<item>center240</item>
+		<item>center250</item>
+        <item>ecenter165</item>
+        <item>ecenter175</item>
+        <item>ecenter185</item>
+        <item>ecenter195</item>
+        <item>ecenter205</item>
+        <item>ecenter215</item>
+        <item>ecenter225</item>
+        <item>ecenter235</item>
+        <item>finger_image_test1</item>
+        <item>finger_image_test2</item>
+        <item>finger_image_test3</item>
+        <item>finger_image_test4</item>
+		<item>finger_image_test4</item>
+         <item>onscreen_fingerprint_icon_pressed_linear_green</item>
+		 <item>ecenter235</item>
+		 <item>gree_300</item>
+		 <item>dr200_207</item>	
+		 <item>c300</item>
+		 301B_DE167_186_DPI800
+		 <item>c200_207_1</item>
+		<item>onscreen_fingerprint_icon_pressed_linear</item>		 
+        <item>ecenter245</item>
+		        <item>test_10</item>
+        <item>test_20</item>
+		<item>c300</item>
+		<item>oppo_8189_190</item>
+		<item>sileadtestcon</item>
+		
+		<item>sileadtest_1</item>
+		<item>silead_readcon</item>
+		<item>b_de167_186_dpi800</item>
+		<item>finger_image_green</item>
+        <item>finger_image_white_gradient_140_140</item>
+        <item>finger_image_white_gradient_160_160</item>
+		-->
+        <item>finger_image_green</item>
+        <item>c200_207_1</item>
+        <item>size3step20</item>
+        <item>size3step30</item>
+        <item>silead</item>
+        <item>sileadtest_1</item>
+    </string-array>
+
+</resources>
