@@ -41,12 +41,12 @@ public class FingerEnrollSettingActivity extends Activity implements View.OnClic
     private int mEnrollId;
     private String mEnrollIdImageName;
     private CharSequence[] mFingerprintImageNameArray;
-
+    private String tag = "gallen";
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.finger_enroll_main_optic);
-
+        Log.e(tag,"fingerprintEnrollSettingActivity");
         mFingerEnrollCount = (TextView) findViewById(R.id.finger_enroll_setting_count);
         mFingerEnrollCountSubBtn = (Button) findViewById(R.id.finger_enroll_setting_count_sub_btn);
         mFingerEnrollCountPlusbBtn = (Button) findViewById(R.id.finger_enroll_setting_count_plus_btn);

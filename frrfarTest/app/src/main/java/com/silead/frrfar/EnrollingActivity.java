@@ -560,6 +560,7 @@ public class EnrollingActivity extends Activity implements View.OnClickListener 
             } else {
                 if (enrollResult.getErrCode() == FingerManager.TEST_RESULT_IMAGE_ICON_CHANGE) {
                     updateEachIcon(enrollResult.getStep());
+                    Log.e(FingerSettingsConst.LOG_TAG,"EnrollingActiveIcon setting");
                 } else {
                     mErrorCode = enrollResult.getErrCode();
                 }
@@ -738,12 +739,12 @@ public class EnrollingActivity extends Activity implements View.OnClickListener 
 
     private void showIcon() {
         if (mFingerprintImage != null) {
-            Log.e(FingerSettingsConst.LOG_TAG, "EnrollActivity  showIcon---1");
+          //  Log.e(FingerSettingsConst.LOG_TAG, "EnrollActivity  showIcon---1");
             WindowManager wm = (WindowManager)getApplicationContext().getSystemService(Context.WINDOW_SERVICE);
-            Log.e(FingerSettingsConst.LOG_TAG, "EnrollActivity  showIcon--2");
+            //Log.e(FingerSettingsConst.LOG_TAG, "EnrollActivity  showIcon--2");
           mFingerprintImage.setRotation(mRotation);
             wm.addView(mFingerprintImage, lp);
-            Log.e(FingerSettingsConst.LOG_TAG, "EnrollActivity  showIcon--3");
+            //Log.e(FingerSettingsConst.LOG_TAG, "EnrollActivity  showIcon--3");
         }
     }
 
