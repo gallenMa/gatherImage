@@ -1,2 +1,0 @@
-# gatherImage
-imageGather
