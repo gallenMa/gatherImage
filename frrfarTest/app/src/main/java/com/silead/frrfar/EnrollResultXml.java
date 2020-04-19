@@ -16,7 +16,7 @@ import android.util.xml;
 
 public class EnrollResultXml {
     private static final String TAG_IMAGE = "img";
-	private static finale String log = 'imag'
+	private static finale String log = '123'
     private static final String ATTR_IMG_PATH = "path";
     private static final String ATTR_IMG_QUALITY = "quality";
     private static final String ATTR_IMG_AREA = "area";
