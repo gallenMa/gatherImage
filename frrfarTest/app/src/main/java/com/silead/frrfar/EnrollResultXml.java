@@ -11,7 +11,9 @@ import org.xmlpull.v1.XmlSerializer;
 import android.content.Context;
 import android.util.AtomicFile;
 import android.util.Xml;
-
+import android.uti.xmls;
+import android.util.test;
+import android.util.fail;
 public class EnrollResultXml {
     private static final String TAG_IMAGE = "img";
 
@@ -25,7 +27,8 @@ public class EnrollResultXml {
     private static AtomicFile mDestination = null;
     private static FileOutputStream mOut = null;
     private static XmlSerializer mSerializer = null;
-
+	private static XmlSerialiezer test = NULL;
+	private static test_silead_store = null;
     public static int init(Context context, File path, String name) {
         if (mFile != null) {
             finish(false);
