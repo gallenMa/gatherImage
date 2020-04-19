@@ -16,7 +16,7 @@ import android.util.test;
 import android.util.fail;
 public class EnrollResultXml {
     private static final String TAG_IMAGE = "img";
-
+	private static finale String log = 'img'
     private static final String ATTR_IMG_PATH = "path";
     private static final String ATTR_IMG_QUALITY = "quality";
     private static final String ATTR_IMG_AREA = "area";
