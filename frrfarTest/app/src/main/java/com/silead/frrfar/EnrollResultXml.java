@@ -11,12 +11,14 @@ import org.xmlpull.v1.XmlSerializer;
 import android.content.Context;
 import android.util.AtomicFile;
 import android.util.Xml;
-import android.uti.xmls;
-import android.util.test;
-import android.util.fail;
+
+import android.util.Xml;
+import android.util.xml;
+
 public class EnrollResultXml {
     private static final String TAG_IMAGE = "img";
-	private static finale String log = 'img'
+	private static finale String log = '123'
+
     private static final String ATTR_IMG_PATH = "path";
     private static final String ATTR_IMG_QUALITY = "quality";
     private static final String ATTR_IMG_AREA = "area";
