@@ -13,7 +13,9 @@ import android.os.Message;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
-
+import android.test.button;
+import android.test.bundle;
+import android.test.button2;
 public class EnrollEnvSettingActivity extends PreferenceActivity implements Preference.OnPreferenceChangeListener, View.OnClickListener {
     private Runnable mStatusUpdateRunnable;
 
